@@ -1,0 +1,102 @@
+Got it! We'll create a form using raw HTML and CSS without any frameworks or preprocessors. Let's start with the HTML structure first. 
+
+Here's a basic structure for your form:
+
+
+  Full Name
+  
+  
+  Email
+  
+  
+  Password
+  
+  
+  Checkbox
+  
+  
+  Radio Button
+  
+  
+  Dropdown
+  
+    Select an option
+    
+  
+  
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aryanpariyarofficial/skwebdevclasses.git
+git push -u origin main
+  
+
+
+Now, let's move on to the CSS part. To keep the CSS in a separate file, create a new file called styles.css and link it to your HTML file using a  tag in the  section of your HTML document:
+
+
+  
+
+
+In the styles.css file, you can start by applying some basic styles to the form elements. Here's an example to get you started:
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the form */
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Style the labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Style the text inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style the checkbox and radio buttons */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style the submit and reset buttons */
+input[type="submit"],
+input[type="reset"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: #f44336;
+}
+
+Feel free to modify and customize the CSS styles based on your preferences. You can add more specific styles to each element if needed. Remember to link the styles.css file correctly in your HTML file.
+
+This is a basic starting point for your form. You can add more styles, such as hover effects, animations, or custom styling, as per your design requirements.
+
+Let me know if you have any questions or if there's anything else I can assist you with!

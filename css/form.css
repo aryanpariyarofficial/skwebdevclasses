@@ -1,0 +1,62 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply some basic styles to the form */
+  form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the text inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea, 
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  textarea::placeholder,input::placeholder{
+    color: #cacacaef;
+  }
+  
+  /* Style the checkbox and radio buttons */
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 20px;
+  }
+  
+  /* Style the submit and reset buttons */
+  input[type="submit"],
+  input[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="reset"] {
+    background-color: #f44336;
+  }
+  

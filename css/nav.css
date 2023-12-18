@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    list-style: none;
+}
+ul > li{
+    margin: 10px;
+}
+
+ul > li > a{
+    text-decoration: none;
+}
